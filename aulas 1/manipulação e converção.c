@@ -1,16 +1,14 @@
 #include <stdio.h>
 
-int main(){
+void main(){
+    int num;
+    printf(" entre com o numero inteiro:");
+    scanf("%d", &num);
 
-int a = 10;
-int b = 3;
-float quociente = (float) a / b; 
+    num = num + num%3;
+    printf("NUm: %d", num);
 
-printf(" resultado : %.2f\n", quociente);
-
-return 0;
-
-
+    return 0;
 
 
 }
